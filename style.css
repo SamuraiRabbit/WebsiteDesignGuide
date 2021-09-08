@@ -1,0 +1,70 @@
+/* Universal Styles */
+
+* {
+    /*border: 1px solid red !important;*/
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.design-section {
+    margin: 10px auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section-heading {
+    text-align: left;
+}
+
+/* Specific Styles */
+
+
+#title {
+    text-align: center;
+}
+
+.colour {
+    display: inline-block;
+    max-width: 180px;
+    margin: 20px 5px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.colour, #bermuda-grey {
+    background-color: #7A8AA8;
+    color: #FFFFFF;
+}
+
+.colour, #albescent-white {
+    background-color: #F5DDCB;
+    color: #000000;
+}
+
+.colour, #donkey-brown {
+    background-color: #A89383;
+    color: #FFFFFF;
+}
+
+.colour, #sand-wisp {
+    background-color: #F5EA9A;
+    color: #000000;
+}
+.colour, #green-smoke {
+    background-color: #A8A272;
+    color: #FFFFFF;
+}
+
+
+.font {
+
+}
+
+.text-style {
+
+}
