@@ -4,14 +4,13 @@
 
 * {
     /*border: 1px solid red !important;*/
-    /*font-family: Helvetica, sans-serif;*/
     position: relative;
     width: 100%;
     max-width: 1000px;
     margin: auto;
 }
 
-h1, h2, p {
+h1, h2, p, li {
     font-family: Helvetica, sans-serif;
 }
 
@@ -26,20 +25,32 @@ h1, h2, p {
     text-align: left;
 }
 
-/* Specific Styles */
+.block {
+    display: inline-block;
+    max-width: 350px;
+    padding: 20px;
+}
 
+.colour-block {
+    max-width: 180px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.font-block {
+    line-height: 200%;
+    margin: auto;
+}
+
+.text-style-block {
+    line-height: 150%;  
+}
+
+/* Specific Styles */
 
 #title {
     text-align: center;
-}
-
-.colour {
-    display: inline-block;
-    max-width: 180px;
-    margin: 20px 5px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
 }
 
 #bermuda-grey {
@@ -66,15 +77,6 @@ h1, h2, p {
     color: #FFFFFF;
 }
 
-
-.font {
-    line-height: 200%;
-    display: inline-block;
-    max-width: 350px;
-    margin: auto;
-    padding: 20px;
-}
-
 #lato {
     font-family: 'Lato', sans-serif;
 }
@@ -83,6 +85,17 @@ h1, h2, p {
     font-family: 'Urbanist', sans-serif;
 }
 
-.text-style {
+#h1-style h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
 
+#h2-style h1 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#p-style h1 {
+    font-weight: 400;
+    font-size: 14px;
 }
